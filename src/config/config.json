@@ -1,0 +1,17 @@
+{
+    "googleMaps": {
+        "key": "AIzaSyB6qAwbMp-shWMSqu5wvw7FYoxU2dNiwso",
+        "language": "en",
+        "components": "country:pk"
+    },
+    "firebaseConfig": {
+        "apiKey": "AIzaSyBjJp31N-_dwFuKwR39mUdsTRd27z5Pl1I",
+        "authDomain": "medicosconnect-5a2ef.firebaseapp.com",
+        "databaseURL": "https://medicosconnect-5a2ef-default-rtdb.firebaseio.com",
+        "projectId": "medicosconnect-5a2ef",
+        "storageBucket": "medicosconnect-5a2ef.appspot.com",
+        "messagingSenderId": "224975131232",
+        "appId": "1:224975131232:web:0bb713f783961a5bd1e905",
+        "measurementId": "G-CKK9J52DSZ"
+    }
+}

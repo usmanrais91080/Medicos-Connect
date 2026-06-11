@@ -1,0 +1,218 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../../assets/styles/theme.style';
+import {SCREEN_HEIGHT, SCREEN_WIDTH} from '../../../../lib/utils/constants';
+
+export default StyleSheet.create({
+  buttonStyleDone: {
+    padding: 10,
+    borderRadius: 10,
+    marginTop: '5%',
+    height: 60,
+    width: SCREEN_WIDTH * 0.9,
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    backgroundColor: themeStyle.ORANGE_DARK,
+  },
+  progressCardContainer: {
+    backgroundColor: themeStyle.COLOR_YELLOWISH,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: '48%',
+    borderRadius: 7,
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+  },
+  progressHeader: {
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_BOLD,
+    fontSize: 16,
+    marginBottom: 8,
+  },
+  dayCount: {
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_BOLD,
+    fontSize: 23,
+  },
+  progressText: {
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_REGULAR,
+    fontSize: 14,
+  },
+  inActiveday: {
+    width: SCREEN_WIDTH * 0.16,
+    height: SCREEN_HEIGHT * 0.075,
+    backgroundColor: '#F8F8F8',
+    borderRadius: 10,
+    marginHorizontal: 6,
+    marginVertical: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  digit: {
+    color: 'black',
+    fontFamily: themeStyle.FONT_MEDIUM,
+    fontSize: themeStyle.FONT_SIZE_XLARGE,
+  },
+  dateText: {
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: 'black',
+  },
+  daysRemain: {
+    backgroundColor: themeStyle.MENTAL_DARK,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 30,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+  },
+  daysRemainText: {
+    color: themeStyle.COLOR_WHITE,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  headerRightContainer: {
+    flexDirection: 'row',
+    marginRight: 15,
+    alignItems: 'center',
+  },
+  headerBtn: {
+    borderRadius: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: themeStyle.BAR_COLOR,
+    paddingHorizontal: 15,
+    paddingVertical: 5,
+  },
+  btnText: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: 12,
+    marginLeft: 10,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  container: {
+    flex: 1,
+    paddingTop: '5%',
+  },
+  contentContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    width: SCREEN_WIDTH,
+    paddingLeft: '1%',
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '2.5%',
+    marginVertical: '2.5%',
+    marginBottom: '5%',
+    borderBottomWidth: 0.5,
+    borderTopWidth: 0.5,
+  },
+  btnContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#38474F',
+    paddingVertical: '2.5%',
+    paddingHorizontal: '14%',
+    borderRadius: 10,
+  },
+  orangeText: {
+    color: '#FF9966',
+    fontFamily: themeStyle.FONT_REGULAR,
+    fontSize: 12,
+  },
+  itemContainer: {
+    backgroundColor: themeStyle.COLOR_WHITE,
+    borderRadius: 10,
+    overflow: 'hidden',
+    marginHorizontal: 5,
+  },
+  imageStyle: {
+    height: SCREEN_HEIGHT * 0.14,
+    width: SCREEN_WIDTH * 0.46,
+  },
+  imageStyle1: {
+    height: SCREEN_HEIGHT * 0.15,
+    width: SCREEN_WIDTH * 0.95,
+  },
+
+  nameText: {
+    // fontSize: 10,
+    color: themeStyle.BUTTON_COLOR,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  whiteText: {
+    marginLeft: 5,
+    fontSize: 10,
+    color: 'white',
+  },
+  grayText: {
+    fontSize: 10,
+    color: themeStyle.PRIMARY_TINT_COLOR,
+    fontFamily: themeStyle.FONT_REGULAR,
+    textTransform: 'capitalize',
+  },
+  blackText: {
+    // marginLeft: 10,
+    color: themeStyle.BUTTON_COLOR,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  rowContainer: {
+    marginHorizontal: '5%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  adContainer: {
+    marginVertical: '3%',
+    backgroundColor: 'white',
+    paddingVertical: '5%',
+  },
+  rowStyle: {
+    marginTop: 5,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  lowerContainer: {
+    padding: 5,
+  },
+  thumb: {
+    width: 50,
+    height: 50,
+    resizeMode: 'contain',
+    // borderRadius: 30 / 2,
+    backgroundColor: 'transparent',
+    bottom: 20,
+  },
+  textCenter: {
+    color: 'white',
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  progressflex: {
+    flexDirection: 'row',
+    width: '100%',
+    justifyContent: 'space-between',
+  },
+  progressCard: {
+    marginHorizontal: '5%',
+    borderRadius: 10,
+  },
+  level: {
+    fontSize: 32,
+    color: themeStyle.PURPLE_COLOR,
+    fontFamily: themeStyle.FONT_REGULAR,
+    marginTop: 20,
+    marginLeft: 20,
+    marginBottom: -10,
+  },
+  textStyleMenu: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  contentContainerStyle: {alignItems: 'center', marginVertical: '3%'},
+});

@@ -1,0 +1,61 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../assets/styles/theme.style';
+
+export default StyleSheet.create({
+  container: {
+    backgroundColor: themeStyle.COLOR_WHITE,
+    borderTopLeftRadius: 18,
+    borderTopRightRadius: 18,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    paddingBottom: 20,
+    position: 'absolute',
+    width: '100%',
+    bottom: 0,
+    elevation: 10,
+    shadowColor: themeStyle.COLOR_BLACK,
+    shadowOffset: {width: 0, height: 5},
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+  },
+  buttonText: {
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  editButton: {
+    borderColor: themeStyle.EDUCATION_BROWN,
+    borderWidth: 2,
+    backgroundColor: themeStyle.COLOR_WHITE,
+    width: 160,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+    marginHorizontal: 4,
+  },
+  deleteButton: {
+    borderColor: themeStyle.EDUCATION_BROWN,
+    borderWidth: 2,
+    backgroundColor: themeStyle.EDUCATION_BROWN,
+    width: 160,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+    marginHorizontal: 4,
+  },
+  buttonContainer: {
+    marginBottom: 32,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 15,
+  },
+  dropdown: {
+    alignSelf: 'center',
+    marginTop: 10,
+    width: 40,
+    height: 30,
+    alignItems: 'center',
+  },
+});

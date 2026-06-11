@@ -1,0 +1,102 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../../../assets/styles/theme.style';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: themeStyle.COLOR_WHITE,
+  },
+  title: {
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 32,
+    fontFamily: themeStyle.FONT_REGULAR,
+    marginTop: 30,
+    marginLeft: 20,
+  },
+  goal: {
+    fontFamily: themeStyle.FONT_BOLD,
+    color: themeStyle.PURPLE_COLOR,
+  },
+  selectCategory: {
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    marginLeft: 20,
+    marginTop: 24,
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginHorizontal: 20,
+    marginTop: 8,
+  },
+  notSelected: {
+    height: 40,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: themeStyle.PURPLE_COLOR,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '32%',
+  },
+  selected: {
+    height: 40,
+    borderRadius: 10,
+    backgroundColor: themeStyle.ORANGE_DARK,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '32%',
+  },
+  selectedText: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: 14,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  notSelectedText: {
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 14,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  selectedGoalDetails: {
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    marginTop: 8,
+    color: '#777777',
+    marginLeft: 20,
+  },
+  typeYourGoal: {
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    marginLeft: 20,
+    marginTop: 12,
+  },
+  textInput: {
+    height: 150,
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    marginHorizontal: 20,
+    marginTop: 8,
+    borderWidth: 2,
+    borderColor: themeStyle.PURPLE_COLOR,
+    borderRadius: 10,
+    paddingHorizontal: 20,
+    paddingTop: 15,
+    textAlignVertical: 'top',
+  },
+  createButton: {
+    backgroundColor: themeStyle.ORANGE_DARK,
+    height: 60,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 12,
+    marginHorizontal: 20,
+  },
+  create: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+});

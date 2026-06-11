@@ -1,0 +1,140 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../assets/styles/theme.style';
+import {SCREEN_WIDTH} from '../../../lib/utils/constants';
+import {scaleFont} from '../../../lib/utils/global';
+
+export default StyleSheet.create({
+  container: {
+    backgroundColor: '#F8F8F8', //themeStyle.COLOR_WHITE,
+    borderRadius: 10,
+    padding: '5%',
+    borderWidth: 3,
+    borderColor: themeStyle.CARRER_DISABLE_BUTTON,
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  btnContainer: {
+    marginTop: '2.5%',
+    height: 30,
+    // width: SCREEN_WIDTH * 0.3,
+    backgroundColor: '#1DD1A1',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  btnContainer1: {
+    marginTop: '2.5%',
+    flexDirection: 'row',
+    height: 30,
+    width: SCREEN_WIDTH * 0.8,
+    backgroundColor: themeStyle.EDUCATION_BROWN,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  detailsButton: {
+    marginTop: '2.5%',
+    flexDirection: 'row',
+    height: 40,
+    width: 118,
+    backgroundColor: themeStyle.EDUCATION_BROWN,
+    borderRadius: 6,
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+    shadowColor: themeStyle.COLOR_BLACK,
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.3,
+    shadowRadius: 1,
+  },
+  btnContainer2: {
+    marginTop: '2.5%',
+    height: 30,
+    width: SCREEN_WIDTH * 0.3,
+    backgroundColor: '#99CC66',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  rowStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  grayTextStyle: {
+    fontSize: scaleFont(10),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.PRIMARY_TINT_COLOR,
+  },
+  grayTextStyle1: {
+    fontSize: scaleFont(14),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: '#454545',
+  },
+  description: {
+    fontSize: scaleFont(14),
+    fontFamily: themeStyle.FONT_MEDIUM,
+    color: themeStyle.COLOR_BLACK,
+    marginTop: 15,
+  },
+  grayText: {
+    fontSize: scaleFont(10),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: '#454545',
+  },
+  blackText: {
+    fontSize: scaleFont(14),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+    marginRight: 10,
+  },
+  colorText: {
+    fontSize: scaleFont(12),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: '#1DD1A1',
+  },
+  textStyle: {
+    fontSize: scaleFont(14),
+    fontFamily: themeStyle.FONT_MEDIUM,
+    color: themeStyle.COLOR_BLACK,
+  },
+  textStyle1: {
+    fontSize: scaleFont(16),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: '#313131',
+    textTransform: 'capitalize',
+  },
+  conferenceName: {
+    fontSize: scaleFont(16),
+    fontFamily: themeStyle.FONT_MEDIUM,
+    color: themeStyle.COLOR_BLACK,
+    textTransform: 'capitalize',
+  },
+  box: {
+    borderRadius: 3,
+    borderColor: themeStyle.EDUCATION_BROWN,
+    borderWidth: 2,
+    paddingHorizontal: 7,
+    paddingVertical: 3,
+  },
+  textStyle2: {
+    fontSize: scaleFont(16),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: '#313131',
+  },
+  sponsorLogo: {
+    height: 34,
+    width: 78,
+    borderRadius: 5,
+    marginTop: 15,
+    marginBottom: 10,
+  },
+  speaker: {
+    marginLeft: 5,
+    fontSize: scaleFont(12),
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.DARK_GRAY,
+  },
+});

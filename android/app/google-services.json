@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "224975131232",
+    "firebase_url": "https://medicosconnect-5a2ef-default-rtdb.firebaseio.com",
+    "project_id": "medicosconnect-5a2ef",
+    "storage_bucket": "medicosconnect-5a2ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224975131232:android:329b738c011e0d08d1e905",
+        "android_client_info": {
+          "package_name": "com.gameapp.medicos.connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn9Pv2VTW27voqGvrkn6_lb995ySF_5b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224975131232-hpdb4v1j7h6545mbbtk742a31e633n41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224975131232:android:aee221fccb5e9fd5d1e905",
+        "android_client_info": {
+          "package_name": "com.mainapp.medicos.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224975131232-0hueq32kjb7cnt0hii3vsb6k12etvnqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainapp.medicos.connect",
+            "certificate_hash": "5049c09220f13087c35d538d49992d7f31530abc"
+          }
+        },
+        {
+          "client_id": "224975131232-8f1lea0515hsuptuurj86m8n0mhcfpn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainapp.medicos.connect",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "224975131232-a48enom4u7bh5fofcsm8b7t5qqk7hs3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainapp.medicos.connect",
+            "certificate_hash": "c8a0fc98897b4d18a0696bb0cf70c744e2c2e014"
+          }
+        },
+        {
+          "client_id": "224975131232-j9v59cq9pgq4j4i5130vu1c0fs2lvc58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainapp.medicos.connect",
+            "certificate_hash": "f593d53404af1d3f53d0a4601f8ea127d8ad9a82"
+          }
+        },
+        {
+          "client_id": "224975131232-mt0mhtkt6jv1rcoo6k1oqk0fic5ln778.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mainapp.medicos.connect",
+            "certificate_hash": "f5397364de93e558dd78f44351f9b50dbca647b7"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn9Pv2VTW27voqGvrkn6_lb995ySF_5b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224975131232-hpdb4v1j7h6545mbbtk742a31e633n41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

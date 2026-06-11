@@ -1,0 +1,165 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../../assets/styles/theme.style';
+
+export default StyleSheet.create({
+  headerRightContainer: {
+    flexDirection: 'row',
+    marginRight: 15,
+    alignItems: 'center',
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  headerTextStyle: {
+    color: themeStyle.COLOR_WHITE,
+    fontFamily: themeStyle.FONT_BOLD,
+    fontSize: themeStyle.FONT_SIZE_XLARGE,
+  },
+  line: {
+    height: 1,
+    backgroundColor: '#B3B3B3',
+    width: '100%',
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  sponsorLogo: {
+    height: 34,
+    width: 78,
+    borderRadius: 5,
+    marginTop: 15,
+    marginBottom: 10,
+    marginHorizontal: 5,
+  },
+  datingStyle: {
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    marginLeft: '5%',
+    justifyContent: 'center',
+    borderRadius: 15,
+    borderColor: themeStyle.COLOR_WHITE,
+    borderWidth: 1,
+  },
+  headingStyle: {
+    color: 'white',
+    fontSize: 12,
+  },
+  container: {
+    flex: 1,
+    paddingTop: '5%',
+  },
+  cardContainer: {
+    flex: 1,
+    backgroundColor: themeStyle.COLOR_WHITE,
+    paddingVertical: '5%',
+    borderRadius: 10,
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0,
+  },
+  avatarContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  rowStyle: {
+    marginVertical: '7%',
+    // flexDirection: 'row',
+    // justifyContent: 'space-between',
+    // alignItems: 'center',
+  },
+  rowContainer: {
+    marginTop: '5%',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  rowContainer1: {
+    marginVertical: '5%',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  mainContainer: {
+    paddingHorizontal: '5%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  viewStyle: {
+    flex: 0.33,
+    height: 40,
+    marginHorizontal: 3,
+    backgroundColor: '#E9E9E9',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  titleText: {
+    marginTop: '3%',
+    fontSize: 22,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+  },
+  titleText1: {
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.PRIMARY_TINT_COLOR,
+  },
+  gap: {
+    width: 15,
+  },
+  designationText: {
+    fontSize: 14,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.PRIMARY_TINT_COLOR,
+  },
+  headingText: {
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_BOLD,
+    color: themeStyle.COLOR_EDUCATION,
+    marginBottom: '3%',
+  },
+  colorHeadingText: {
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+    // marginTop: '3%',
+    width: '90%',
+  },
+  colorHeadingText1: {
+    fontSize: 18,
+    fontFamily: themeStyle.FONT_MEDIUM,
+    color: '#99CC66',
+  },
+  colorText: {
+    fontSize: 14,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: '#99CC66',
+  },
+  descText: {
+    fontSize: 12,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.PRIMARY_TINT_COLOR,
+  },
+  btnContainer: {
+    flex: 0.2,
+    elevation: 5,
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    paddingHorizontal: '5%',
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  btonContainer: {
+    marginVertical: '2.5%',
+    backgroundColor: '#99CC66',
+    height: 50,
+    flexDirection: 'row',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  whiteText: {
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: 'white',
+  },
+});

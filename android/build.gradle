@@ -1,0 +1,37 @@
+buildscript {
+    ext {
+        buildToolsVersion = "35.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 35
+        targetSdkVersion = 34
+        // Remove 'supportLibVersion' property and put specific versions for AndroidX libraries
+        androidXAnnotation = "1.2.0"
+        androidXBrowser = "1.3.0"
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "2.0.21"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.4.2'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+subprojects {
+    afterEvaluate {project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion rootProject.ext.compileSdkVersion
+                buildToolsVersion rootProject.ext.buildToolsVersion
+            }
+        }
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"

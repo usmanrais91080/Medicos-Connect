@@ -1,0 +1,148 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../../assets/styles/theme.style';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: themeStyle.COLOR_WHITE,
+  },
+  myProgress: {
+    fontSize: 32,
+    fontFamily: themeStyle.FONT_BOLD,
+    color: themeStyle.PURPLE_COLOR,
+    marginTop: 30,
+    marginLeft: 20,
+    marginBottom: 20,
+  },
+  profileContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginLeft: 20,
+    marginBottom: 12,
+  },
+  profileImage: {
+    width: 90,
+    height: 90,
+    borderRadius: 45,
+    borderWidth: 3,
+    borderColor: themeStyle.COLOR_YELLOWISH,
+    marginRight: 10,
+  },
+  username: {
+    fontSize: 23,
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_BOLD,
+  },
+  line: {
+    width: '100%',
+    height: 1,
+    backgroundColor: '#707070',
+    opacity: 0.3,
+    marginVertical: 9,
+  },
+  activityIndicator: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+  },
+  headerTitleContainer: {
+    backgroundColor: themeStyle.ORANGE_LIGHT,
+    borderRadius: 10,
+    height: 75,
+    justifyContent: 'center',
+    marginHorizontal: 20,
+    marginBottom: 10,
+  },
+  headerTitleInnerContainer: {
+    backgroundColor: themeStyle.ORANGE_DARK,
+    height: '100%',
+    borderRadius: 10,
+  },
+  headerTitle: {
+    fontSize: 20,
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_MEDIUM,
+    position: 'absolute',
+    left: 20,
+  },
+  percentage: {
+    fontSize: 32,
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_BOLD,
+    position: 'absolute',
+    right: 12,
+  },
+  detailCardContainer: {
+    paddingTop: 18,
+    paddingBottom: 11,
+    backgroundColor: themeStyle.ORANGE_LIGHT,
+    marginHorizontal: 20,
+    borderRadius: 5,
+    paddingHorizontal: 15,
+    marginBottom: 10,
+  },
+  detailCardInnerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  streakContainer: {
+    justifyContent: 'center',
+  },
+  detailCardTitle: {
+    textAlign: 'center',
+    fontSize: 12,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+  },
+  detailCardValue: {
+    fontSize: 32,
+    fontFamily: themeStyle.FONT_BOLD,
+    color: themeStyle.COLOR_BLACK,
+    marginTop: 3,
+    textAlign: 'center',
+  },
+  detailCardValueSmall: {
+    fontSize: 14,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+  },
+  day: {
+    fontSize: 10,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+  },
+  circle: {
+    width: 36,
+    height: 36,
+    borderRadius: 20,
+    marginTop: 5,
+    borderWidth: 1,
+    borderColor: themeStyle.COLOR_YELLOWISH,
+  },
+  title: {
+    fontSize: 20,
+    fontFamily: themeStyle.FONT_BOLD,
+    color: themeStyle.COLOR_BLACK,
+    marginVertical: 10,
+    paddingHorizontal: 20,
+  },
+  sessionsContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    right: 20,
+  },
+  sessionCount: {
+    fontSize: 32,
+    fontFamily: themeStyle.FONT_BOLD,
+    color: themeStyle.COLOR_BLACK,
+  },
+  sessions: {
+    fontSize: 10,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK,
+    marginTop: -5,
+  },
+});

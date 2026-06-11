@@ -1,0 +1,157 @@
+import {StyleSheet} from 'react-native';
+import themeStyle from '../../../../assets/styles/theme.style';
+import {SCREEN_HEIGHT, SCREEN_WIDTH} from '../../../../lib/utils/constants';
+
+export default StyleSheet.create({
+  buttonStyleDone: {
+    padding: 10,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: themeStyle.COLOR_EXERCISE_BUTTON,
+    height: 45,
+    marginBottom: '10%',
+    width: SCREEN_WIDTH * 0.5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    backgroundColor: themeStyle.COLOR_EXERCISE_BUTTON,
+  },
+  doneButton: {
+    backgroundColor: themeStyle.ORANGE_DARK,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+  },
+  done: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: 16,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  shareSocial: {
+    fontSize: 16,
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_MEDIUM,
+  },
+  congratulation: {
+    color: themeStyle.PURPLE_COLOR,
+    fontSize: 40,
+    fontFamily: themeStyle.FONT_BOLD,
+  },
+  time: {
+    color: themeStyle.COLOR_BLACK,
+    fontSize: 32,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  mins: {
+    fontSize: 24,
+    color: themeStyle.COLOR_BLACK,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  workoutCompleted: {
+    color: themeStyle.PURPLE_COLOR,
+    fontSize: 28,
+    fontFamily: themeStyle.FONT_REGULAR,
+    textAlign: 'center',
+    marginTop: 32,
+    paddingHorizontal: '5%',
+    lineHeight: 36,
+  },
+  headerDay: {
+    borderColor: themeStyle.COLOR_WHITE,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 20,
+    paddingHorizontal: 10,
+    marginLeft: 20,
+  },
+  headerDayText: {
+    color: themeStyle.COLOR_WHITE,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  headerTitleText: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: themeStyle.FONT_SIZE_XLARGE,
+    fontFamily: themeStyle.FONT_MEDIUM,
+  },
+  modalContainer: {
+    padding: '5%',
+    height: SCREEN_HEIGHT * 0.45,
+    alignSelf: 'center',
+    backgroundColor: themeStyle.COLOR_EXERCISE_BUTTON,
+    width: SCREEN_WIDTH * 1,
+    flexDirection: 'row',
+  },
+  headerRightContainer: {
+    flexDirection: 'row',
+    marginRight: 15,
+    alignItems: 'center',
+  },
+  headerBtn: {
+    borderRadius: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: themeStyle.BAR_COLOR,
+    paddingHorizontal: 15,
+    paddingVertical: 5,
+  },
+  btnText: {
+    color: themeStyle.COLOR_WHITE,
+    fontSize: 12,
+    marginLeft: 10,
+    fontFamily: themeStyle.FONT_REGULAR,
+  },
+  container: {
+    flex: 1,
+    paddingTop: '5%',
+  },
+  contentContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    width: SCREEN_WIDTH,
+    paddingLeft: '1%',
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '2.5%',
+    marginVertical: '2.5%',
+    marginBottom: '5%',
+    borderBottomWidth: 0.5,
+    borderTopWidth: 0.5,
+  },
+  btnContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#38474F',
+    paddingVertical: '2.5%',
+    paddingHorizontal: '14%',
+    borderRadius: 10,
+  },
+  textStyleMenu: {
+    fontFamily: themeStyle.FONT_REGULAR,
+    width: '70%',
+    color: themeStyle.COLOR_BLACK_LIGHT,
+    fontWeight: '700',
+    fontSize: 18,
+
+    // textDecorationLine: 'underline',
+  },
+  textStyleMenu2: {
+    fontFamily: themeStyle.FONT_REGULAR,
+    width: '70%',
+    color: themeStyle.COLOR_BLACK_LIGHT,
+    fontWeight: '700',
+    fontSize: 11,
+
+    // textDecorationLine: 'underline',
+  },
+  textStyle: {
+    fontSize: 18,
+    fontFamily: themeStyle.FONT_REGULAR,
+    color: themeStyle.COLOR_BLACK_LIGHT,
+  },
+});
